@@ -1,4 +1,4 @@
-from gan import cost
+from .gan import cost
 
 
 def J_diff_a_numerical(x, z, a, b, c, g, h, delta=1e-6):
